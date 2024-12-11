@@ -11,6 +11,7 @@ from qr_code_generator import qr_code_generator
 from quiz_game import quiz_game
 from r_p_s_game import r_p_s_game
 from roll_dice import roll_dice_enhanced
+from tic_tac_toe_game import tic_tac_toe_game
 
 list_apps = {
     "a": roll_dice_enhanced,
@@ -19,6 +20,7 @@ list_apps = {
     "d": qr_code_generator,
     "e": currency_converter,
     "f": quiz_game,
+    "g": tic_tac_toe_game,
 }
 
 if __name__ == '__main__':
@@ -34,11 +36,3 @@ if __name__ == '__main__':
 
     if user_input in list_apps:
         list_apps[user_input]()
-
-    # roll_dice()
-    # roll_dice_enhanced()
-    # guess_number()
-    # r_p_s_game()
-    # qr_code_generator()
-    # currency_converter()
-    # quiz_game()
