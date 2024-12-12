@@ -1,6 +1,6 @@
 ### Currency Converter
 
-# # User imputs:
+# # User inputs:
 # Amount to convert
 # Source and Target currency from given options
 # Fixed conversion from source to target

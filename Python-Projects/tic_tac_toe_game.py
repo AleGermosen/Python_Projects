@@ -75,6 +75,3 @@ def tic_tac_toe_game():
             elif len(num_list) == 0:
                 print("Tie Game!")
                 exit()
-
-
-tic_tac_toe_game()

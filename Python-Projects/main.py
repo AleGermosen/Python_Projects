@@ -12,6 +12,7 @@ from quiz_game import quiz_game
 from r_p_s_game import r_p_s_game
 from roll_dice import roll_dice_enhanced
 from tic_tac_toe_game import tic_tac_toe_game
+from to_do_app import to_do_list
 
 list_apps = {
     "a": roll_dice_enhanced,
@@ -21,6 +22,7 @@ list_apps = {
     "e": currency_converter,
     "f": quiz_game,
     "g": tic_tac_toe_game,
+    "h": to_do_list,
 }
 
 if __name__ == '__main__':
@@ -31,6 +33,8 @@ if __name__ == '__main__':
     d) QR code generator
     e) Currency converter
     f) Quiz game
+    g) Tic tac toe game
+    h) To do list
     """)
     user_input = input("Which app would you like to run? ").lower()
 
