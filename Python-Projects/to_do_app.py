@@ -53,6 +53,3 @@ To-Do List Menu:
                 menu_dict[user_input]()  # Call the function directly
         else:
             print("Invalid choice. Please try again.")
-
-# Run the menu
-to_do_list()
