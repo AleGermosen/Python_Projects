@@ -7,6 +7,7 @@
 
 from currency_converter import currency_converter
 from guess_number import guess_number
+from pig_dice_game import pig_dice_game
 from qr_code_generator import qr_code_generator
 from quiz_game import quiz_game
 from r_p_s_game import r_p_s_game
@@ -25,6 +26,7 @@ list_apps = {
     "g": tic_tac_toe_game,
     "h": to_do_list,
     "i": text_editor_app,
+    "j": pig_dice_game,
 }
 
 if __name__ == '__main__':
@@ -38,6 +40,7 @@ if __name__ == '__main__':
     g) Tic tac toe game
     h) To do list app
     i) Text editor app
+    j) Pig dice game
     """)
     user_input = input("Which app would you like to run? ").lower()
 
