@@ -5,6 +5,7 @@
 # check if the chosen option is available
 # run chosen app
 
+from cows_bulls_game import cows_bulls_game
 from currency_converter import currency_converter
 from guess_number import guess_number
 from pig_dice_game import pig_dice_game
@@ -27,6 +28,7 @@ list_apps = {
     "h": to_do_list,
     "i": text_editor_app,
     "j": pig_dice_game,
+    "k": cows_bulls_game,
 }
 
 if __name__ == '__main__':
@@ -41,6 +43,7 @@ if __name__ == '__main__':
     h) To do list app
     i) Text editor app
     j) Pig dice game
+    k) Cows and bulls game
     """)
     user_input = input("Which app would you like to run? ").lower()
 
