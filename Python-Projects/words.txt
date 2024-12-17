@@ -1,0 +1,1 @@
+The Word Guessing Game is a fun and interactive project where players try to guess a secret word, one letter at a time. 

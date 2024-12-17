@@ -18,6 +18,7 @@ from roll_dice import roll_dice_enhanced
 from text_editor import text_editor_app
 from tic_tac_toe_game import tic_tac_toe_game
 from to_do_app import to_do_list
+from word_guessing_game import word_guessing_game
 
 list_apps = {
     "a": roll_dice_enhanced,
@@ -33,6 +34,7 @@ list_apps = {
     "k": cows_bulls_game,
     "l": password_strength_checker,
     "m": password_generator,
+    "n": word_guessing_game,
 }
 
 if __name__ == '__main__':
@@ -50,8 +52,11 @@ if __name__ == '__main__':
     k) Cows and bulls game
     l) Password Strength Checker
     m) Password Generator
+    n) Word Guessing Game
     """)
     user_input = input("Which app would you like to run? ").lower()
 
     if user_input in list_apps:
         list_apps[user_input]()
+    else:
+        print("Invalid choice.")
