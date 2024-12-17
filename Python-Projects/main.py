@@ -5,6 +5,7 @@
 # check if the chosen option is available
 # run chosen app
 
+from atm_simulation import atm_simulation
 from cows_bulls_game import cows_bulls_game
 from currency_converter import currency_converter
 from guess_number import guess_number
@@ -15,6 +16,7 @@ from qr_code_generator import qr_code_generator
 from quiz_game import quiz_game
 from r_p_s_game import r_p_s_game
 from roll_dice import roll_dice_enhanced
+from slot_machine_game import slot_machine_game
 from text_editor import text_editor_app
 from tic_tac_toe_game import tic_tac_toe_game
 from to_do_app import to_do_list
@@ -35,6 +37,8 @@ list_apps = {
     "l": password_strength_checker,
     "m": password_generator,
     "n": word_guessing_game,
+    "o": slot_machine_game,
+    "p": atm_simulation,
 }
 
 if __name__ == '__main__':
@@ -50,9 +54,11 @@ if __name__ == '__main__':
     i) Text editor app
     j) Pig dice game
     k) Cows and bulls game
-    l) Password Strength Checker
-    m) Password Generator
-    n) Word Guessing Game
+    l) Password strength checker
+    m) Password generator
+    n) Word guessing game
+    o) Slot machine game
+    p) ATM simulation
     """)
     user_input = input("Which app would you like to run? ").lower()
 
