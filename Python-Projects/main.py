@@ -8,6 +8,8 @@
 from cows_bulls_game import cows_bulls_game
 from currency_converter import currency_converter
 from guess_number import guess_number
+from password_generator import password_generator
+from password_strength import password_strength_checker
 from pig_dice_game import pig_dice_game
 from qr_code_generator import qr_code_generator
 from quiz_game import quiz_game
@@ -29,6 +31,8 @@ list_apps = {
     "i": text_editor_app,
     "j": pig_dice_game,
     "k": cows_bulls_game,
+    "l": password_strength_checker,
+    "m": password_generator,
 }
 
 if __name__ == '__main__':
@@ -44,6 +48,8 @@ if __name__ == '__main__':
     i) Text editor app
     j) Pig dice game
     k) Cows and bulls game
+    l) Password Strength Checker
+    m) Password Generator
     """)
     user_input = input("Which app would you like to run? ").lower()
 
